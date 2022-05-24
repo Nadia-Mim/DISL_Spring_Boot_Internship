@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package java_stdin_and_stdout_1;
+package javaStdinAndStdout1;
 
 import java.util.Scanner;
 
@@ -13,7 +13,7 @@ import java.util.Scanner;
  * 
  * Hackerrank problem link: https://www.hackerrank.com/challenges/java-stdin-and-stdout-1?isFullScreen=true
  */
-public class Java_stdin_and_stdout_1 {
+public class JavaStdinAndStdout1 {
 
     /**
      * @param args the command line arguments
