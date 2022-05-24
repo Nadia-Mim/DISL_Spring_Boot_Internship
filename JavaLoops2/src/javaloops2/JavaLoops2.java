@@ -10,6 +10,8 @@ import java.util.Scanner;
 /**
  *
  * @author Nadia Mim
+ * 
+ * Hackerrank problem link:https://www.hackerrank.com/challenges/java-loops?isFullScreen=true
  */
 public class JavaLoops2 {
 
