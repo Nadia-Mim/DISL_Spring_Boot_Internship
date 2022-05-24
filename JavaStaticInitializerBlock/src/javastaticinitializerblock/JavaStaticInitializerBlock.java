@@ -35,7 +35,7 @@ public class JavaStaticInitializerBlock {
     public static void main(String[] args) {
         // TODO code application logic here
         if(flag){
-            int area=B*H;
+            int area = B * H;
             System.out.println(area);
         }
     }
