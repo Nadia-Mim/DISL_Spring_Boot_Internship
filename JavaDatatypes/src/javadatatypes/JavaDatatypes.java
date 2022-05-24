@@ -11,7 +11,7 @@ import java.util.Scanner;
  *
  * @author Nadia Mim
  * 
- * Hackerrank problem link:
+ * Hackerrank problem link: https://www.hackerrank.com/challenges/java-datatypes/problem?isFullScreen=true
  */
 public class JavaDatatypes {
 
