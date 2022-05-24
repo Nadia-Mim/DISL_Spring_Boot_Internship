@@ -24,7 +24,7 @@ public class JavaEndOfFile {
         
         for (int i = 1; sc.hasNext() ; i++){
             
-                System.out.println(i + " " + sc.nextLine());
+            System.out.println(i + " " + sc.nextLine());
             
         }
         
