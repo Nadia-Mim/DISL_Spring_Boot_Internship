@@ -21,6 +21,7 @@ public class JavaStdinAndStdout1 {
     public static void main(String[] args) {
         // TODO code application logic here
         Scanner scan = new Scanner(System.in);
+        
         int a = scan.nextInt();
         int b = scan.nextInt();
         int c = scan.nextInt();
