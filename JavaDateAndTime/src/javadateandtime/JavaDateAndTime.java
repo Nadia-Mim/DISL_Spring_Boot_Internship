@@ -23,13 +23,10 @@ public class JavaDateAndTime {
     public static void main(String[] args) {
         // TODO code application logic here
         Scanner sc = new Scanner (System.in);
-        
         int month = sc.nextInt();
         int day = sc.nextInt();
         int year = sc.nextInt();
-     
         sc.close();
-        
         String res = Result.findDay(month, day, year);
         System.out.println(res);
         
@@ -43,7 +40,6 @@ class Result{
         
         LocalDate date = LocalDate.of(year, month, day);
         DayOfWeek w = date.getDayOfWeek();
-        
         return w.name();
     }
 }
