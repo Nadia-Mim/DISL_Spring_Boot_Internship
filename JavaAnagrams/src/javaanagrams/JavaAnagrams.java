@@ -11,7 +11,7 @@ import java.util.*;
  *
  * @author Nadia Mim
  * 
- * Hackerrank problem link: 
+ * Hackerrank problem link: https://www.hackerrank.com/challenges/java-anagrams/problem?isFullScreen=true
  */
 public class JavaAnagrams {
 
