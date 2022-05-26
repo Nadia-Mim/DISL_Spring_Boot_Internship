@@ -43,9 +43,7 @@ public class JavaList {
         }
         for(Integer s: L){
             System.out.print(s + " ");
-        }
-        
-        
+        }  
     }
     
 }
