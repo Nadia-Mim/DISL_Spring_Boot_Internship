@@ -28,17 +28,17 @@ public class JavaInheritance1 {
 class Animal{
     void walk()
     {
-            System.out.println("I am walking");
+        System.out.println("I am walking");
     }
 }
 class Bird extends Animal
 {
     void fly()
     {
-            System.out.println("I am flying");
+        System.out.println("I am flying");
     }
     void sing()
     {
-            System.out.println("I am singing");
+        System.out.println("I am singing");
     }
 }
