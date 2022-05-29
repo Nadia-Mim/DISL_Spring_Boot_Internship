@@ -13,16 +13,10 @@ package javainheritance2;
  */
 public class JavaInheritance2 {
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
-        // TODO code application logic here
-        // Create a new Adder object
+        
         Adder a = new Adder();
-        // Print the name of the superclass on a new line
         System.out.println("My superclass is: " + a.getClass().getSuperclass().getName());
-        // Print the result of 3 calls to Adder's `add(int,int)` method as 3 space-separated integers:
         System.out.print(a.add(10,32) + " " + a.add(10,3) + " " + a.add(10,10) + "\n");
     }
     
