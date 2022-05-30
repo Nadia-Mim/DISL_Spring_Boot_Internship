@@ -14,9 +14,9 @@ public class CanYouAccess {
         
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         int num = Integer.parseInt(br.readLine().trim());
-        Object o = new Inner().new Private();
-        System.out.println(num + " is " + ((CanYouAccess.Inner.Private)o).powerof2(num));
-        System.out.println("An instance of class: " + o.getClass().getCanonicalName() + " has been created");
+        Inner.Private p = new Inner().new Private();
+        System.out.println(num + " is " + (p.powerof2(num)));
+        System.out.println("An instance of class: " + p.getClass().getCanonicalName() + " has been created");
 
     }
     static class Inner{
