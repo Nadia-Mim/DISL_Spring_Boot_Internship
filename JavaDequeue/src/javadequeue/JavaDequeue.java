@@ -32,15 +32,17 @@ public class JavaDequeue {
             deque.add(num);
             set.add(num);
             
-            if(deque.size() == m && set.size() > max){
-                max = set.size();
+            if(deque.size() == m ){
+                
+                if(set.size() > max){
+                    max = set.size();
+                }
                 int element = deque.remove();
+                
                 if (!deque.contains(element)){
                     set.remove(element);
                 }
-                
             }
-
         }
         System.out.println(max);
     }
