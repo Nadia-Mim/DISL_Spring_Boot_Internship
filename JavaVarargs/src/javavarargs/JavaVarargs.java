@@ -12,6 +12,7 @@ import java.util.*;
 public class JavaVarargs {
 
     public static void main(String[] args) {
+        
         try{
             BufferedReader br=new BufferedReader(new InputStreamReader(System.in));
             int n1=Integer.parseInt(br.readLine());
@@ -44,10 +45,9 @@ public class JavaVarargs {
         catch(Exception e){
                 e.printStackTrace();
         }
-        
     }
-
 }
+
 class Add {
 
     void add(int ... values) {
