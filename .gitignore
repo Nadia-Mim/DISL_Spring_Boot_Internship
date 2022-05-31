@@ -156,3 +156,5 @@
 /JavaSHA256/build/
 /JavaSHA256/dist/
 /PatternSyntaxChecker/nbproject/private/
+/PatternSyntaxChecker/build/
+/PatternSyntaxChecker/dist/
