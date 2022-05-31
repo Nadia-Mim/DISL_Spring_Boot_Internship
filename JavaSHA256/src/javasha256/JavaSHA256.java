@@ -7,7 +7,7 @@ import java.util.*;
  *
  * @author Nadia Mim
  * 
- * 
+ * Hackerrank problem link: https://www.hackerrank.com/challenges/sha-256/problem?isFullScreen=true
  */
 public class JavaSHA256 {
 
