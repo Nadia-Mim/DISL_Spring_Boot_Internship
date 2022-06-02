@@ -1,0 +1,3 @@
+javalambdaexpressions.PerformOperation
+javalambdaexpressions.MyMath
+javalambdaexpressions.JavaLambdaExpressions
