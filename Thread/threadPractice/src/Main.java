@@ -18,10 +18,20 @@ public class Main extends Thread{
 //        t.start();
 
         /*calling another class*/
-        multithreadedProgrammimng mp = new multithreadedProgrammimng();
-        mp.InterThreadDemo();
-        srynconizedThreadMethod stm = new srynconizedThreadMethod ();
-        stm.seatReservation();
+//        multithreadedProgrammimng mp = new multithreadedProgrammimng();
+//        mp.InterThreadDemo();
+//
+//        srynconizedThreadMethod stm = new srynconizedThreadMethod ();
+//        stm.seatReservation();
+
+//        synchronizedBlocks sb = new synchronizedBlocks();
+//        sb.atmTransaction();
+
+//        BankingSynchronizedBlock bsb = new BankingSynchronizedBlock();
+//        bsb.banking();
+
+        deadLockdemo dld = new deadLockdemo();
+        dld.deadLock();
     }
     public void run(){
         System.out.println("Thread running...");

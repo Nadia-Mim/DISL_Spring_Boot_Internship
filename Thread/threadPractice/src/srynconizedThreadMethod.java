@@ -21,7 +21,7 @@ class Reservation{
             System.out.println("Seat Available. Reserve now :-)");
             try
             {
-                Thread.sleep(100);     // LINE E
+                Thread.sleep(100);
             }
             catch (InterruptedException e)
             {
